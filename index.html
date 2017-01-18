@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Greg's List</title>
+	<meta charset="utf-8" name="description" content="Version 1 of a prototype for Greg's List">
+	<link rel="stylesheet" type="text/css" href="styles/main.css">
+</head>
+<body>
+	<nav class="container">
+		<a href="#" class="logotype">Greg's List</a>
+		<ul>
+			<li><a href="#">Post</li></a>
+			<li><a href="#">Account</li></a>
+		</ul>
+	</nav>
+	<div id="offset"></div>
+	<main>
+		<div class="form">
+			<form action="getform.php" method="get">
+				<input type="text" name="search" placeholder="Search software jobs" class="search">
+				<input type="image" src="images/magnifying-glass.png" alt="icon" class="search-icon">
+			</form>
+		</div>
+		<div class="buttons">
+			<button name="button" class="arrow">&#60; prev</button>
+			<div class="arrow gap">
+				<p>1 to 100 of 179</p>
+			</div>
+			<button name="button" class="arrow">next &#62;</button>
+		</div>
+		<div class="postings">
+			<ul>
+				<li>June 22<span class="position">Technical Project Manager</span>Midtown East</li>
+				<li>June 21<span class="position">Frontend Developer</span>SoHo</li>
+				<li>June 20<span class="position">Senior Python Developer</span>Flatiron</li>
+			</ul>
+		</div>
+	</main>
+</body>
+</html>
