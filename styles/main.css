@@ -112,15 +112,15 @@ nav li a:hover {
 /*	FORM */
 
 .buttons {
-	padding-left: 20px;
-	padding-right: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
 	margin-top: 40px;
 	/*border: 1px solid red;*/
 	height: 40px;
+	
 }
 
 .arrow {
-	border-radius: 5px;
 	border: 1px solid lightgrey;
 	background-color: white;
 	height: 40px;
@@ -128,13 +128,30 @@ nav li a:hover {
 	font-size: 1em;
 	display: inline-block;
 	margin: 0;
+	text-align: center;
+	padding: 0;
+	margin-left: -6px;
+}
+
+.arrow p {
+	margin: 0;
+	line-height: 40px;
+}
+
+.prev {
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+	cursor: pointer;
 }
 
 .gap {
 	width: 200px;
-	position: relative;
-	text-align: center;
-	vertical-align: middle;
+}
+
+.next {
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	cursor: pointer;
 }
 
 /*	JOB LISTINGS */
@@ -158,12 +175,17 @@ nav li a:hover {
 	font-size: 18px;
 }
 
+.postings a {
+	text-decoration: none;
+	color: blue;
+}
+
 .position {
 	padding-left: 20px;
 	padding-right: 20px;
-	color: blue;
 	font-weight: bold;
 }
+
 
 
 
